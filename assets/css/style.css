@@ -83,6 +83,18 @@ body{
     background-color: black;
 
 }
+.modal2{
+    /* position: absolute; */
+    margin: 0 auto;
+    padding: 30px;
+    top: 10%;
+    border: 4px solid #fff;
+    border-radius: 10px;
+    width: 908px;
+    height: 410px;
+    background-color: black;
+
+}
 .open-modal1{
     border: 1px solid #fff;
     padding: 3px;
@@ -164,6 +176,23 @@ body{
     transition: tranform 0.3s ease;
 }
 .close-button:hover{
+    box-shadow: 0 0 30px;
+    transform: scale(1.05);
+}
+.close-button2{
+    border: none;
+    border-radius: 2px;
+    background-color: transparent;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+    padding: 2px;
+    width: 910px;
+    transition: box-shadow 0.3s ease;
+    transition: tranform 0.3s ease;
+
+}
+.close-button2:hover{
     box-shadow: 0 0 30px;
     transform: scale(1.05);
 }
