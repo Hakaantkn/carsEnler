@@ -19,7 +19,7 @@ body{
 .cars{
     width: 300px;
     height: 300px;
-    border: 3px inset #fff;
+    border: 3px solid #fff;
     overflow: hidden;
     transition: tranform 0.3s ease;
     transition: box-shadow 0.3s ease;
@@ -78,8 +78,8 @@ body{
     top: 10%;
     border: 4px solid #fff;
     border-radius: 10px;
-    width: 926px;
-    /* height: 800px; */
+    width: 908px;
+    height: 540px;
     background-color: black;
 
 }
@@ -93,11 +93,56 @@ body{
     margin-top: 10px;
     cursor: pointer;
 }
+.open-modal2{
+    border: 1px solid #fff;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    transition: box-shadow 0.3s ease;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.open-modal3{
+    border: 1px solid #fff;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    transition: box-shadow 0.3s ease;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.open-modal4{
+    border: 1px solid #fff;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    transition: box-shadow 0.3s ease;
+    margin-top: 10px;
+    cursor: pointer;
+}
 .open-modal1:hover{
     box-shadow: 0 0 30px;
 }
 #ozanFoto1{
-
+    transition: transform 0.3s ease;
+}
+#ozanFoto1:hover{
+    transform: scale(1.05);
+}
+#ozanFoto2{
+    transition: transform 0.3s ease;
+}
+#ozanFoto2:hover{
+    transform: scale(1.05);
+}
+#ozanFoto3{
+    transition: transform 0.3s ease;
+}
+#ozanFoto3:hover{
+    transform: scale(1.05);
 }
 .ozanFotolar{
     /* border: 3px solid #fff; */
@@ -108,8 +153,17 @@ body{
 }
 .close-button{
     border: none;
+    border-radius: 2px;
     background-color: transparent;
     color: #fff;
-    border-bottom: 1px solid #fff;
+    border-bottom: 2px solid #fff;
     cursor: pointer;
+    padding: 2px;
+    width: 910px;
+    transition: box-shadow 0.3s ease;
+    transition: tranform 0.3s ease;
+}
+.close-button:hover{
+    box-shadow: 0 0 30px;
+    transform: scale(1.05);
 }
